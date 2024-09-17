@@ -1,11 +1,64 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background: #e7eeff;
 }
 
-.logo {
+.biz-card {
+  max-width: 428px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff url('assets/honeycomb_gray.png') no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.bg-card {
+  border-radius: 1rem;
+  width: 100%;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
+}
+
+.qr-section {
+  background-color: #0c0956;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qr-section p {
+  color: #fff;
+}
+
+.qr-section img {
+  padding-top: 30px;
+  width: 50%;
+}
+
+.about {
+  background-color: #721b5c;
+  color: #fff;
+  padding: 20px;
+}
+.about img {
+  width: 40%;
+  margin-top: -60px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -16,7 +69,7 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
 @keyframes logo-spin {
   from {

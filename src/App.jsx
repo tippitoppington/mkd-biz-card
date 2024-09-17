@@ -1,34 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import qr from './assets/QR.png'
+import pic from './assets/profilePic.png'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className='biz-card'>
+      <div className='bg-card qr-section'>
+        <img src={qr} alt='qr-code' width='300' />
+        <p>www.headcloudsnowdesign.com</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+
+      <div className='bg-card about'>
+        <img src={pic} alt='meredith duncan profile pic' width='300' />
+        <h1>
+          Meredith Duncan <br /> UX/UI Designer & Developer
+        </h1>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          A unique creative and analytical thinker, looking for mission-driven
+          work, and collaborating with like-minded do-gooders to make the world
+          a better place through human-centered design.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <div className='buttons'>
+        <a href='https://www.headcloudsnowdesign.com' target='_blank'>
+          <button>Portfolio</button>
+        </a>
+        <a
+          href='https://https://www.linkedin.com/in/meredithkduncan/'
+          target='_blank'>
+          <button>LinkedIn</button>
+        </a>
+        <a href='https://www.headcloudsnowdesign.com' target='_blank'>
+          <button>GitHub</button>
+        </a>
+        <a
+          href='https://www.headcloudsnowdesign.com/contact-hcnd'
+          target='_blank'>
+          <button>Contact</button>
+        </a>
+      </div>
+    </div>
   )
 }
 
