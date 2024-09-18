@@ -2,12 +2,12 @@
   width: 100%;
   text-align: center;
 }
-.container-card1 {
+.container-card2 {
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #0c062d;
+  background-color: #c0cfd0;
 }
 
 .biz-card {
@@ -29,33 +29,33 @@
   margin-bottom: 10px;
 }
 
-.qr-section {
-  background-color: #0c0956;
+.qr-section2 {
+  background-color: #465a5e;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.qr-section p {
+.qr-section2 p {
   color: #fff;
 }
 
-.qr-section img {
+.qr-section2 img {
   padding-top: 30px;
   width: 50%;
 }
 
-.about {
+.about2 {
   /* background-color: #721b5c; */
   color: #fff;
   padding: 20px;
 }
-.about img {
+.about2 img {
   width: 40%;
   margin-top: -60px;
 }
-.gradient {
-  background: linear-gradient(130deg, #721b5c, #0c0956);
+.about2.gradient {
+  background: linear-gradient(130deg, #9c443b, #882e23);
   background-size: 200% 200%;
   -webkit-animation: Animation 5s ease infinite;
   -moz-animation: Animation 5s ease infinite;
@@ -95,13 +95,14 @@
     background-position: 10% 0%;
   }
 }
-.buttons {
+
+.buttons2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
 }
-.buttons button {
+.buttons2 button {
   border-radius: 1rem;
   width: 100%;
   border: 1px solid transparent;
@@ -109,18 +110,18 @@
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #0c0956;
+  background-color: #465a5e;
   cursor: pointer;
   transition: border-color 0.25s;
   color: #fff;
   margin-bottom: 10px;
 }
-.buttons button:hover {
+.buttons2 button:hover {
   background-color: #9d94ac;
 }
 
-.buttons button:focus,
-.buttons button:focus-visible {
+.buttons2 .buttons2 button:focus,
+.buttons2 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 

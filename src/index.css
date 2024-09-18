@@ -2,11 +2,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -34,27 +31,40 @@ h1 {
   font-size: 1.2em;
   line-height: 1.1;
 }
-
-button {
+.button-card1 {
   border-radius: 1rem;
-  width: 100%;
+  width: 50%;
   border: 1px solid transparent;
   padding: 1em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  background-color: #721b5c;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.button-card1:hover {
   background-color: #0c0956;
+}
+
+.button-card2 {
+  border-radius: 1rem;
+  width: 50%;
+  border: 1px solid transparent;
+  padding: 1em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #9e463c;
   cursor: pointer;
   transition: border-color 0.25s;
   color: #fff;
   margin-bottom: 10px;
 }
-button:hover {
-  background-color: #9d94ac;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.button-card2:hover {
+  background-color: #465a5e;
 }
 
 /* @media (prefers-color-scheme: light) {
