@@ -5,12 +5,12 @@ export default function Card1() {
   return (
     <div className='container-card1'>
       <div className='biz-card'>
-        <div className='bg-card qr-section'>
+        <div className='qr-section'>
           <img src={qr} alt='qr-code' width='300' />
           <p>www.headcloudsnowdesign.com</p>
         </div>
 
-        <div className='bg-card about gradient'>
+        <div className='about gradient'>
           <img src={pic} alt='meredith duncan profile pic' width='300' />
           <h1>
             Meredith Duncan <br /> UX/UI Designer & Developer

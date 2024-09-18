@@ -18,19 +18,15 @@
   max-width: 428px;
   margin: 0 auto;
   border-radius: 1rem;
-  padding: 0.4rem;
+  /* padding: 0.4rem; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   background: #bdc2db;
 }
 
 .bg-card {
-  border-radius: 1rem;
-  width: 100%;
-
-  margin-bottom: 0.2rem;
 }
 
 .qr-section {
@@ -38,6 +34,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 1rem;
+  width: 96%;
+  margin: 10px;
   padding-bottom: 2.7rem;
 }
 .qr-section p {
@@ -52,6 +51,10 @@
 .about {
   /* background-color: #721b5c; */
   color: #fff;
+  padding: 0 10px 10px 10px;
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 0.2rem;
 }
 .about img {
   width: 40%;
@@ -102,20 +105,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 100%;
+  width: 96%;
 }
 .buttons button {
-  border-radius: 1rem;
+  border-radius: 0.6rem;
   width: 100%;
   border: none;
-  padding: 1em 1.2em;
+  padding: 1.5em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #0c0956;
   cursor: pointer;
   color: #fff;
-  margin-bottom: 0.2rem;
+  margin: 5px 0 5px 0;
 }
 .buttons button:hover {
   background-color: #5169d5;
