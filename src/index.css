@@ -1,4 +1,5 @@
 :root {
+  background-color: black;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -32,26 +33,21 @@ h1 {
   line-height: 1.1;
 }
 .button-card1 {
-  border-radius: 1rem;
-  width: 50%;
-  border: 1px solid transparent;
+  width: 100%;
   padding: 1em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #721b5c;
   cursor: pointer;
-  transition: border-color 0.25s;
   color: #fff;
-  margin-bottom: 4px;
 }
 .button-card1:hover {
   background-color: #0c0956;
 }
 
 .button-card2 {
-  border-radius: 1rem;
-  width: 50%;
+  width: 100%;
   border: 1px solid transparent;
   padding: 1em 1.2em;
   font-size: 1em;
@@ -59,9 +55,7 @@ h1 {
   font-family: inherit;
   background-color: #9e463c;
   cursor: pointer;
-  transition: border-color 0.25s;
   color: #fff;
-  margin-bottom: 10px;
 }
 .button-card2:hover {
   background-color: #465a5e;

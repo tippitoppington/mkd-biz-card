@@ -3,9 +3,9 @@
   text-align: center;
 }
 .container-card1 {
+  padding-top: 0.4rem;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   background-color: #0c062d;
 }
@@ -14,27 +14,27 @@
   max-width: 428px;
   margin: 0 auto;
   border-radius: 1rem;
-  padding: 0.6rem;
+  padding: 0.2rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fff;
+  background: #97a0cf;
 }
 
 .bg-card {
   border-radius: 1rem;
   width: 100%;
-  padding-bottom: 40px;
-  margin-bottom: 10px;
+  padding-bottom: 2rem;
+  margin-bottom: 0.2rem;
 }
 
 .qr-section {
   background-color: #0c0956;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2.7rem;
 }
 .qr-section p {
   color: #fff;
@@ -48,7 +48,6 @@
 .about {
   /* background-color: #721b5c; */
   color: #fff;
-  padding: 20px;
 }
 .about img {
   width: 40%;
@@ -113,7 +112,7 @@
   cursor: pointer;
   transition: border-color 0.25s;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 0.2rem;
 }
 .buttons button:hover {
   background-color: #9d94ac;
@@ -150,12 +149,4 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

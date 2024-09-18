@@ -4,7 +4,7 @@ import pic from '../assets/profilePic.png'
 export default function Card2() {
   return (
     <div className='container-card2'>
-      <div className='biz-card'>
+      <div className='biz-card2'>
         <div className='bg-card qr-section2'>
           <img src={qr} alt='qr-code' width='300' />
           <p>www.headcloudsnowdesign.com</p>
