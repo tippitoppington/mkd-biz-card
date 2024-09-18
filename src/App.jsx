@@ -9,7 +9,7 @@ function App() {
         <p>www.headcloudsnowdesign.com</p>
       </div>
 
-      <div className='bg-card about'>
+      <div className='bg-card about gradient'>
         <img src={pic} alt='meredith duncan profile pic' width='300' />
         <h1>
           Meredith Duncan <br /> UX/UI Designer & Developer
