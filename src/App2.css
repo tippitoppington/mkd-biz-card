@@ -8,7 +8,6 @@
 .container-card2 {
   width: 100%;
   margin: 0;
-  padding-top: 20px;
   text-align: center;
   background-color: #c0cfd0;
   height: 100vh;
@@ -17,9 +16,8 @@
 .biz-card2 {
   max-width: 428px;
   margin: 0 auto;
-
   border-radius: 1rem;
-  padding: 0.2rem;
+  padding: 0.4rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
