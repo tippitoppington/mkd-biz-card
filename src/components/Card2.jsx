@@ -1,24 +1,25 @@
 import '../App2.css'
 import qr from '../assets/QR-gr.png'
-import pic from '../assets/profilePic.png'
+import pic2 from '../assets/profilePic2.png'
 export default function Card2() {
   return (
     <div className='container-card2'>
       <div className='biz-card2'>
         <div className=' qr-section2'>
           <img src={qr} alt='qr-code' width='300' />
-          <p>www.headcloudsnowdesign.com</p>
+          <p>www.zarazenyoga.com</p>
         </div>
 
         <div className='about2 gradient'>
-          <img src={pic} alt='meredith duncan profile pic' width='300' />
+          <img src={pic2} alt='zara zen profile pic' width='300' />
           <h1>
-            Meredith Duncan <br /> UX/UI Designer & Developer
+            Zara Zen <br /> Yoga Instructor
           </h1>
           <p>
-            A unique creative and analytical thinker, looking for mission-driven
-            work, and collaborating with like-minded do-gooders to make the
-            world a better place through human-centered design.
+            A vibrant yoga instructor who transforms every class into a journey
+            of self-discovery and inner peace. Inspiring students to explore
+            their physical limits while nurturing their mental and emotional
+            well-being.
           </p>
         </div>
 

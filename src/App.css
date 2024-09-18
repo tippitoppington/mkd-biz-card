@@ -37,15 +37,15 @@
   border-radius: 1rem;
   width: 96%;
   margin: 10px;
-  padding-bottom: 2.7rem;
+  padding-bottom: 3.6rem;
 }
 .qr-section p {
   color: #fff;
 }
 
 .qr-section img {
-  padding-top: 30px;
-  width: 50%;
+  padding-top: 10px;
+  width: 40%;
 }
 
 .about {
@@ -59,6 +59,12 @@
 .about img {
   width: 40%;
   margin-top: -60px;
+}
+
+.about p {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .gradient {
   background: linear-gradient(130deg, #721b5c, #0c0956);
