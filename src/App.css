@@ -1,11 +1,13 @@
 #root {
   width: 100%;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .container-card1 {
   padding-top: 0.4rem;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   background-color: #0c062d;
 }
@@ -18,14 +20,14 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background: #97a0cf;
 }
 
 .bg-card {
   border-radius: 1rem;
   width: 100%;
-  padding-bottom: 2rem;
+
   margin-bottom: 0.2rem;
 }
 
@@ -103,19 +105,18 @@
 .buttons button {
   border-radius: 1rem;
   width: 100%;
-  border: 1px solid transparent;
+  border: none;
   padding: 1em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #0c0956;
   cursor: pointer;
-  transition: border-color 0.25s;
   color: #fff;
   margin-bottom: 0.2rem;
 }
 .buttons button:hover {
-  background-color: #9d94ac;
+  background-color: #5169d5;
 }
 
 .buttons button:focus,

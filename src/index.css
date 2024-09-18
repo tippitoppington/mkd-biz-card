@@ -23,9 +23,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: top;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 h1 {
@@ -33,22 +33,26 @@ h1 {
   line-height: 1.1;
 }
 .button-card1 {
+  border: none;
+  margin: 0;
   width: 100%;
   padding: 1em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #721b5c;
+  background-color: #521376;
   cursor: pointer;
   color: #fff;
 }
 .button-card1:hover {
   background-color: #0c0956;
+  color: #fff;
 }
 
 .button-card2 {
+  margin: 0;
+  border: none;
   width: 100%;
-  border: 1px solid transparent;
   padding: 1em 1.2em;
   font-size: 1em;
   font-weight: 500;
