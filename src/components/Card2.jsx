@@ -17,9 +17,8 @@ export default function Card2() {
           </h1>
           <p>
             A vibrant yoga instructor who transforms every class into a journey
-            of self-discovery and inner peace. Inspiring students to explore
-            their physical limits while nurturing their mental and emotional
-            well-being.
+            of self-discovery. Inspiring students to explore their physical
+            limits while nurturing their mental and emotional well-being.
           </p>
         </div>
 
