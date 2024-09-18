@@ -26,6 +26,9 @@
   background: #bdc2db;
 }
 
+.bg-card {
+}
+
 .qr-section {
   background-color: #0c0956;
   display: flex;
@@ -47,7 +50,7 @@
 
 .about {
   /* background-color: #721b5c; */
-  color: #fff;
+  color: #29215a;
   padding: 0 10px 10px 10px;
   border-radius: 0;
   width: 100%;
