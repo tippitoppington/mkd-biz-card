@@ -27,7 +27,7 @@ export default function Card2() {
             <button>Portfolio</button>
           </a>
           <a
-            href='https://https://www.linkedin.com/in/meredithkduncan/'
+            href='https://www.linkedin.com/in/meredithkduncan/'
             target='_blank'>
             <button>LinkedIn</button>
           </a>
